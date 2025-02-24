@@ -16,7 +16,7 @@ document.getElementById("loginLogoutBtn").addEventListener("click", function () 
         window.location.reload();
     } else {
         // Redirect to login page
-        window.location.href = "login.html";
+        window.location.href = "Login.html";
     }
 });
 
