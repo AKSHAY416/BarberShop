@@ -49,7 +49,7 @@ function updateUserStatus() {
     } else {
         loginLogoutBtn.innerText = "Login";
         loginLogoutBtn.onclick = function () {
-            window.location.href = "login.html";
+            window.location.href = "Login.html";
         };
     }
 }
@@ -62,7 +62,7 @@ function checkBooking() {
         window.location.href = "booking.html";
     } else {
         alert("You need to log in first!");
-        window.location.href = "login.html";
+        window.location.href = "Login.html";
     }
 }
 
